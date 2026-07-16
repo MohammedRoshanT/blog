@@ -23,7 +23,7 @@ export default function SearchBar({ onSearch }: { onSearch: (query: string) => v
         onChange={handleChange}
         placeholder="Search articles..."
         aria-label="Search articles"
-        className="block w-full pl-11 pr-4 py-4 border border-gray-200 rounded-2xl leading-5 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-base transition-all duration-200 ease-in-out shadow-sm hover:shadow-md"
+        className="block w-full pl-12 pr-4 py-4 border border-white/60 rounded-3xl leading-5 bg-white/40 backdrop-blur-md text-gray-900 placeholder-gray-600 focus:outline-none focus:ring-4 focus:ring-indigo-500/30 focus:border-indigo-400 focus:bg-white/60 sm:text-lg transition-all duration-300 ease-out shadow-[0_8px_32px_rgba(31,38,135,0.05)] hover:shadow-[0_8px_32px_rgba(31,38,135,0.1)] font-medium"
       />
     </div>
   );
